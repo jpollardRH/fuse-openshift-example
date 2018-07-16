@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping https://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+    </configuration>
+    <mapping>
+        <class-a>us_name.Usname</class-a>
+        <class-b>org.mycompany.USName</class-b>
+        <field>
+            <a>data.month</a>
+            <b>month</b>
+        </field>
+        <field>
+            <a>data.nameUs</a>
+            <b>name</b>
+        </field>
+        <field>
+            <a>data.day</a>
+            <b>day</b>
+        </field>
+    </mapping>
+</mappings>
